@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+:root{
+    --violetColor:#5C0E62;
+    --violetDark:#591567;
+    --greyColor: #857885;
+    --orangeColor:#E23434;
+    --greytwo:#5C515C;
+    --yellow:#FFBC51;
+    --whiteColor:#FFFFFF;
+    --backgrColorFoot:#210933;
+    --buttontopcolor:#798AC9;
+    --activButton: linear-gradient(111deg, #00B5D0 0%, #5C0E62 100%);
+    --activButton2: linear-gradient(111deg, #f1bbd8 0%, #e50a32 100%);
+    --opacity-kaz: .78;
+    --background-kaz: linear-gradient(78deg, #f9f4f6 0%, #e50a32 100%);
+}
+
+
+}
+
+@font-face {
+    font-family: "ProximaNova";
+    src: url(../fonts/proximanova_regular.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "ProximaNovaBold";
+    src: url(../fonts/proximanova_black.ttf);
+    font-weight: 700;
+}
+
+body {
+    color:var(--greyColor);
+    font-family: 'ProximaNova', sans-serif;
+    background-color:#F7F3FA;
+}
+
+.container{
+    max-width: 1564px;
+    margin: 0 auto;
+}
+
+.header{
+background: url(../images/Vector\ 1.svg);
+background-size: cover;
+background-position: center;
+max-width: 1920px;
+height: 971.33px;
+padding-bottom: 99px;
+
+}
+.nav-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    width: 1164px;
+    height: 49px;   
+    align-items: center;
+}
+
+.logo {
+    display: inline-flex;
+}
+.logo p{
+    color: #FFF;
+font-family: Open Sans;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+   
+}
+.m-list {
+    display: inline-flex;
+    padding-left: 290px;
+    list-style: none;
+}
+.m-item a{
+    color: var(--whiteColor);
+font-size: 18px;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+padding-left: 40px;
+}
+
+.supp a{
+    color: var(--whiteColor);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    padding-left: 290px;
+
+}
+.drop-down1 {
+}
+.login-action {
+  
+    margin-left: 50px;
+}
+.nav-button {
+    border-radius: 96px;
+    background:var(--yellow);
+    display: flex;
+padding: 12px 40px;
+justify-content: center;
+align-items: center;
+   
+}
+.header-info{
+    margin-top: 168px;
+
+}
+
+.header-title {
+    font-family: "ProximaNovaBold";
+    color: #FFF;
+    font-size: 54px;
+    font-weight: 800;
+    line-height: normal;
+    width: 420px;
+    height: 132px;
+    flex-shrink: 0;
+    margin-bottom: 19px;
+
+}
+
+.header-text {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 38px;
+}
+
+.header-button {
+    width: 200px;
+    height: 50px;
+    color: var(--whiteColor);
+    border-radius: 4px;
+    border: 1px solid rgba(171, 163, 163, 0.20);
+    background: var(--buttontopcolor);
+    cursor: pointer;
+}
+
+.header-button:hover{
+    box-sizing: border-box;
+    background: var(--activButton);
+    border: 1px solid transparent;
+    outline: none;
+}
+.center-img {
+    width: 1200px;
+    height: 1000px;
+    padding-left: 325px;
+margin-top: -470px;
+}
+.right-img {
+position: relative;
+margin-top: -701px;
+margin-left: 352px;
+}
+
+
